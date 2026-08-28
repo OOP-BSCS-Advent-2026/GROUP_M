@@ -4,6 +4,7 @@ public class GroupM_BusinessSimulator {
 
     // total for one item
     public static double calculateItemTotal(int qty, double price, int itemIndex) {
+        //Calculate the total price 
         double total = qty * price;
 
         if (itemIndex == 0) { // Mango - 10+ gets 5% off
