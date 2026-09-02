@@ -57,8 +57,11 @@ public class GroupM_BusinessSimulator {
         Scanner sc = new Scanner(System.in);
 
         // ARRAYS 
+        // Store the names and prices of all fruits
         String[] itemNames = {"Mango", "Banana", "Orange", "Pineapple"};
+        // Store the price of each fruit
         double[] itemPrices = {1000, 500, 800, 3000};
+        // Store the quantity entered by the customer
         int[] quantities = new int[4];
 
         // fruits
